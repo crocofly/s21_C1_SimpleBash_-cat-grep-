@@ -1,0 +1,37 @@
+SUCCESS: 1 / 1 | -n for test_files/test_1_grep.txt test_files/test_2_grep.txt
+SUCCESS: 2 / 2 | -n for test_files/test_1_grep.txt
+SUCCESS: 3 / 3 | -n -e ^\} test_files/test_1_grep.txt
+SUCCESS: 4 / 4 | -ce ^int test_files/test_1_grep.txt test_files/test_2_grep.txt
+SUCCESS: 5 / 5 | -e ^int test_files/test_1_grep.txt
+SUCCESS: 6 / 6 | -nivh = test_files/test_1_grep.txt test_files/test_2_grep.txt
+SUCCESS: 7 / 7 | -e
+SUCCESS: 8 / 8 | -ie INT test_files/test_5_grep.txt
+SUCCESS: 9 / 9 | -ech test_files/test_1_grep.txt test_files/test_2_grep.txt
+SUCCESS: 10 / 10 | -ne = -e out test_files/test_5_grep.txt
+SUCCESS: 11 / 11 | -in int test_files/test_5_grep.txt
+SUCCESS: 12 / 12 | -c -l aboba test_files/test_1_grep.txt test_files/test_5_grep.txt
+SUCCESS: 13 / 13 | -l for test_files/test_1_grep.txt test_files/test_2_grep.txt
+SUCCESS: 14 / 14 | -e = -e out test_files/test_5_grep.txt
+SUCCESS: 15 / 15 | -si s21_grep.c -f no_pattern.txt
+SUCCESS: 16 / 16 | -l for no_file.txt test_files/test_2_grep.txt
+SUCCESS: 17 / 17 | -e int -si no_file.txt s21_grep.c no_file2.txt s21_grep.h
+SUCCESS: 18 / 18 | s test_files/test_0_grep.txt -v
+SUCCESS: 19 / 19 | for Makefile -v
+SUCCESS: 20 / 20 | -e intel -e int -v test_files/test_7_grep.txt
+SUCCESS: 21 / 21 | -e int -e intel -v test_files/test_7_grep.txt
+SUCCESS: 22 / 22 | s test_files/test_0_grep.txt -c
+SUCCESS: 23 / 23 | for Makefile -c
+SUCCESS: 24 / 24 | -e intel -e int -c test_files/test_7_grep.txt
+SUCCESS: 25 / 25 | -e int -e intel -c test_files/test_7_grep.txt
+SUCCESS: 26 / 26 | s test_files/test_0_grep.txt -l
+SUCCESS: 27 / 27 | for Makefile -l
+SUCCESS: 28 / 28 | -e intel -e int -l test_files/test_7_grep.txt
+SUCCESS: 29 / 29 | -e int -e intel -l test_files/test_7_grep.txt
+SUCCESS: 30 / 30 | s test_files/test_0_grep.txt -n
+SUCCESS: 31 / 31 | for Makefile -n
+SUCCESS: 32 / 32 | -e intel -e int -n test_files/test_7_grep.txt
+SUCCESS: 33 / 33 | -e int -e intel -n test_files/test_7_grep.txt
+SUCCESS: 34 / 34 | s test_files/test_0_grep.txt -h
+SUCCESS: 35 / 35 | for Makefile -h
+SUCCESS: 36 / 36 | -e intel -e int -h test_files/test_7_grep.txt
+SUCCESS: 37 / 37 | -e int -e intel -h test_files/test_7_grep.txt
